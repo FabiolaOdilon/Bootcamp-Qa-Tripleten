@@ -166,7 +166,7 @@ pip install -r requirements.txt
 # 4. Executar testes
 pytest
 
-## 🟢 Sprint 8 – Automação de Testes Web
+### 🟢 Sprint 8 – Automação de Testes Web
 
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -202,6 +202,7 @@ O projeto foca em aplicar o padrão **Page Object Model (POM)** para estruturar 
 ├── reports/                # Relatórios de execução
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Documentação
+
 
 
 ### Conclusão
