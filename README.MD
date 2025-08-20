@@ -166,41 +166,43 @@ pip install -r requirements.txt
 # 4. Executar testes
 pytest
 
-
-
 # 🟢 Sprint 8 – Automação de Testes Web
 
-### 🎯 Objetivo do Projeto
-Automatizar testes de aplicações web utilizando Selenium WebDriver e aplicar o padrão Page Object Model (POM).
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
+![Pytest](https://img.shields.io/badge/Pytest-Framework-orange)
+![QA](https://img.shields.io/badge/QA-Automation-blue)
+
+## 🎯 Objetivo do Projeto
+Desenvolver scripts de automação para aplicações web utilizando **Selenium WebDriver** em conjunto com **Python e Pytest**.  
+O projeto foca em aplicar o padrão **Page Object Model (POM)** para estruturar os testes de forma clara e escalável.
 
 ## ⚙️ Funcionalidades
-- Automação de login em aplicação web  
-- Localização de elementos por ID, XPATH, CSS  
-- Estrutura de Page Object Model (POM)  
-- Relatórios de execução  
+- ✅ Abertura e fechamento automático do navegador  
+- ✅ Automação do fluxo de login (válido e inválido)  
+- ✅ Localização de elementos por ID, XPATH e CSS Selector  
+- ✅ Estrutura baseada no padrão Page Object Model (POM)  
+- ✅ Geração de relatórios em HTML após execução dos testes  
 
-##🛠️ Tecnologias Utilizadas
-- Python  
-- Selenium WebDriver  
-- Pytest  
-- GitHub  
+## 🛠️ Tecnologias Utilizadas
+- **Linguagem:** Python 3.10  
+- **Automação Web:** Selenium WebDriver  
+- **Framework de Teste:** Pytest  
+- **Relatórios:** pytest-html  
+- **Controle de Versão:** Git e GitHub  
 
-## ▶️ Instruções de Execução
+## 📂 Estrutura do Projeto
 ```bash
-# 1. Clonar o repositório
-git clone https://github.com/seu-usuario/sprint8-selenium.git
-cd sprint8-selenium
+├── tests/                  # Casos de teste
+│   ├── test_login.py       # Testes de login
+│   └── conftest.py         # Configurações globais
+├── pages/                  # Page Objects (POM)
+│   └── login_page.py       # Classe com elementos e ações da tela de login
+├── reports/                # Relatórios de execução
+├── requirements.txt        # Dependências do projeto
+└── README.md               # Documentação
 
-# 2. Criar ambiente virtual e ativar
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
-
-# 3. Instalar dependências
-pip install -r requirements.txt
-
-# 4. Executar testes
-pytest -v --html=reports/report.html
 
 ### Conclusão
 O bootcamp me trouxe uma opção bem estruturada para iniciar na carreira de Quality Assurce,todos os recursos são voltados para testes de mercados reais com construção em um bom perfil profissional,assim como a abordagem de soft skill essesciais como gerenciamento de tempo, trabalho em equipe e comunicação, que são cruciais para poder atuar nessa área.
