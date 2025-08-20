@@ -181,7 +181,10 @@ O projeto foca em aplicar o padrão **Page Object Model (POM)** para estruturar 
 └── README.md               # Documentação
 
 
-### Conclusão
+
+
+
+##Conclusão
 O bootcamp me trouxe uma opção bem estruturada para iniciar na carreira de Quality Assurce,todos os recursos são voltados para testes de mercados reais com construção em um bom perfil profissional,assim como a abordagem de soft skill essesciais como gerenciamento de tempo, trabalho em equipe e comunicação, que são cruciais para poder atuar nessa área.
 
 
