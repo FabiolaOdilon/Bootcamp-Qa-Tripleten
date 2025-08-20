@@ -166,13 +166,7 @@ pip install -r requirements.txt
 # 4. Executar testes
 pytest
 
-### 🟢 Sprint 8 – Automação de Testes Web
-
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green)
-![Pytest](https://img.shields.io/badge/Pytest-Framework-orange)
-![QA](https://img.shields.io/badge/QA-Automation-blue)
+# 🟢 Sprint 8 – Automação de Testes Web
 
 ## 🎯 Objetivo do Projeto
 Desenvolver scripts de automação para aplicações web utilizando **Selenium WebDriver** em conjunto com **Python e Pytest**.  
