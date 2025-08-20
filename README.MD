@@ -166,9 +166,11 @@ pip install -r requirements.txt
 # 4. Executar testes
 pytest
 
+
+
 # 🟢 Sprint 8 – Automação de Testes Web
 
-## 🎯 Objetivo do Projeto
+### 🎯 Objetivo do Projeto
 Automatizar testes de aplicações web utilizando Selenium WebDriver e aplicar o padrão Page Object Model (POM).
 
 ## ⚙️ Funcionalidades
@@ -177,7 +179,7 @@ Automatizar testes de aplicações web utilizando Selenium WebDriver e aplicar o
 - Estrutura de Page Object Model (POM)  
 - Relatórios de execução  
 
-## 🛠️ Tecnologias Utilizadas
+##🛠️ Tecnologias Utilizadas
 - Python  
 - Selenium WebDriver  
 - Pytest  
