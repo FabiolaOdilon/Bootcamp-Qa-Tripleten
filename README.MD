@@ -2,62 +2,203 @@
 
 
 img src ="![alt text](<Imagens/Logo tripleten.jpeg>)"
-### Sprint 1
--Introdução a Análise de QA
--O que são testes de software?
--Como se tornar analista de QA: hard skills
--Como se tornar analista de QA: soft skills
--Introdução ao desenvolvimento e teste
--Etapas de desenvolvimento: testar uma tarefa
+
+
+
+# 🟢 Sprint 1 – Fundamentos de QA
+
+## 🎯 Objetivo do Projeto
+Introduzir os conceitos de QA, entender o papel do analista de testes, as etapas do desenvolvimento de software e como realizar os primeiros testes manuais.
+
+## ⚙️ Funcionalidades
+- Explicação sobre testes de software  
+- Diferença entre hard skills e soft skills em QA  
+- Ciclo de desenvolvimento de software  
+- Testes em pequenas tarefas  
+
+## 🛠️ Tecnologias Utilizadas
+- Documentação (Google Docs, Notion ou Trello)  
+- Fluxogramas para etapas do processo  
+- Ferramentas de organização de tarefas (Trello/Jira)  
+
+## ▶️ Instruções de Execução
+Este sprint é teórico/prático, não há execução em código.  
+Para praticar:  
+1. Crie um checklist de validação de uma funcionalidade simples.  
+2. Documente erros encontrados em planilha ou ferramenta de gerenciamento.  
 
 ### Sprint 2
--Análise de Requisito
--Projeto de teste
--Documentação de teste
--Áreas cinzentas e pesquisa de requisitos
--Testes funcionais e Não Funcionais
+# 🟢 Sprint 2 – Requisitos e Projeto de Teste
 
-### Sprint 3
--Como funciona uma aplicação Web
--Teste de interfaces do usuário de um aplicativo web
--Testes entre plataforma e Navegadores
--Teste de design web responsivo
--Design de teste para teste de aplicativos Web
+## 🎯 Objetivo do Projeto
+Aprender a analisar requisitos de software, criar casos de teste/documentação e entender a diferença entre testes funcionais e não funcionais.
 
-### Sprint 4
--Testes de API com POstman
--Design de testes para teste de API
--Swagger
--Apidoc
--cURL e geraçã de solicitação Postman
+## ⚙️ Funcionalidades
+- Análise de requisitos de um sistema  
+- Criação de casos de teste e cenários  
+- Documentação de teste em planilhas  
+- Identificação de áreas cinzentas  
 
-### Sprint 5
--Panorama dos dipositivos móveis
--Paramentro dos dipositivos móveis
--Teste de dispositivos móveis em um Emulador
--Teste de mobile em um dipositivo
+## 🛠️ Tecnologias Utilizadas
+- Google Docs/Excel  
+- TestRail (ou ferramenta similar)  
+- Jira ou Trello para requisitos  
 
-### Sprint 6
--Noções básicas de Banco de Dados
--Noções básicas de SQL
--Relações entre tabelas SQL
--Introdução ao Console
+## ▶️ Instruções de Execução
+1. Analise requisitos de um sistema fictício (ex.: cadastro de usuário).  
+2. Documente casos de teste (positivo, negativo, campos obrigatórios).  
+3. Registre cenários em planilha ou no Jira.  
 
-### Sprint 7
--O que é automação de teste
--Liguagem de programaçõa Phyton
--Tipos de dados 
--Lógica da programação
--PyCharm
--Sincronização de código Git e GitHub
--Pytest
+# 🟢 Sprint 3 – Testes em Aplicações Web
 
-### Sprint 8
--Automação de testes de aplicativos Web
--Python: Classes e Objetivos
--Localizar Elementos
--Usar o Selenium
--Modelo de Objetivo da Página
+## 🎯 Objetivo do Projeto
+Realizar testes em aplicações web, validar interfaces, compatibilidade entre navegadores e design responsivo.
+
+## ⚙️ Funcionalidades
+- Testes de UI em navegadores  
+- Testes cross-browser (Chrome/Firefox/Edge)  
+- Testes de design responsivo (desktop, tablet, mobile)  
+
+## 🛠️ Tecnologias Utilizadas
+- Chrome DevTools  
+- Firefox Developer Tools  
+- Responsively App  
+
+## ▶️ Instruções de Execução
+1. Escolha uma aplicação web para teste (ex.: formulário de cadastro).  
+2. Valide layout e campos em diferentes navegadores.  
+3. Use a ferramenta Responsively para verificar o design responsivo.  
+
+# 🟢 Sprint 4 – Testes de API
+
+## 🎯 Objetivo do Projeto
+Aprender a criar, enviar e validar requisições em APIs REST usando diferentes ferramentas.
+
+## ⚙️ Funcionalidades
+- Criação de coleções no Postman  
+- Testes GET, POST, PUT e DELETE  
+- Documentação de API com Swagger/Apidoc  
+- Uso de cURL para requisições  
+
+## 🛠️ Tecnologias Utilizadas
+- Postman  
+- Swagger  
+- Apidoc  
+- cURL  
+
+## ▶️ Instruções de Execução
+1. Importe a coleção no Postman.  
+2. Execute as requisições e valide respostas (status code, body, headers).  
+3. Documente os testes no Swagger.  
+
+# 🟢 Sprint 5 – Testes Mobile
+
+## 🎯 Objetivo do Projeto
+Executar testes em aplicativos móveis, tanto em emuladores quanto em dispositivos reais.
+
+## ⚙️ Funcionalidades
+- Teste de interface mobile  
+- Validação de desempenho em diferentes dispositivos  
+- Testes em emulador e celular físico  
+
+## 🛠️ Tecnologias Utilizadas
+- Android Studio (emulador)  
+- Genymotion  
+- Appium (se aplicável)  
+
+## ▶️ Instruções de Execução
+1. Configure um emulador Android no Android Studio.  
+2. Execute o app fictício e realize testes manuais.  
+3. Valide a execução em um dispositivo físico.  
+
+
+# 🟢 Sprint 6 – Banco de Dados e SQL
+
+## 🎯 Objetivo do Projeto
+Aprender conceitos básicos de banco de dados e realizar consultas SQL para validar informações do sistema.
+
+## ⚙️ Funcionalidades
+- Criação de tabelas  
+- Inserção e consulta de dados  
+- Relações entre tabelas  
+
+## 🛠️ Tecnologias Utilizadas
+- MySQL ou PostgreSQL  
+- SQLite  
+- DBeaver  
+
+## ▶️ Instruções de Execução
+1. Crie um banco de dados com tabela de usuários.  
+2. Insira dados fictícios.  
+3. Faça consultas para validar informações de cadastro.  
+
+# 🟢 Sprint 7 – Fundamentos de Automação
+
+## 🎯 Objetivo do Projeto
+Introduzir automação de testes utilizando Python, conceitos básicos de programação e versionamento de código.
+
+## ⚙️ Funcionalidades
+- Estruturas básicas em Python  
+- Criação de scripts simples  
+- Uso do Pytest para testes automatizados  
+- Versionamento com GitHub  
+
+## 🛠️ Tecnologias Utilizadas
+- Python  
+- PyCharm  
+- Pytest  
+- Git e GitHub  
+
+## ▶️ Instruções de Execução
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/seu-usuario/sprint7-automacao.git
+cd sprint7-automacao
+
+# 2. Criar ambiente virtual e ativar
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# 3. Instalar dependências
+pip install -r requirements.txt
+
+# 4. Executar testes
+pytest
+
+# 🟢 Sprint 8 – Automação de Testes Web
+
+## 🎯 Objetivo do Projeto
+Automatizar testes de aplicações web utilizando Selenium WebDriver e aplicar o padrão Page Object Model (POM).
+
+## ⚙️ Funcionalidades
+- Automação de login em aplicação web  
+- Localização de elementos por ID, XPATH, CSS  
+- Estrutura de Page Object Model (POM)  
+- Relatórios de execução  
+
+## 🛠️ Tecnologias Utilizadas
+- Python  
+- Selenium WebDriver  
+- Pytest  
+- GitHub  
+
+## ▶️ Instruções de Execução
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/seu-usuario/sprint8-selenium.git
+cd sprint8-selenium
+
+# 2. Criar ambiente virtual e ativar
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# 3. Instalar dependências
+pip install -r requirements.txt
+
+# 4. Executar testes
+pytest -v --html=reports/report.html
 
 ### Conclusão
 O bootcamp me trouxe uma opção bem estruturada para iniciar na carreira de Quality Assurce,todos os recursos são voltados para testes de mercados reais com construção em um bom perfil profissional,assim como a abordagem de soft skill essesciais como gerenciamento de tempo, trabalho em equipe e comunicação, que são cruciais para poder atuar nessa área.
