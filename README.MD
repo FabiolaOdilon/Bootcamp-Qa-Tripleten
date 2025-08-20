@@ -167,21 +167,7 @@ O projeto foca em aplicar o padrão **Page Object Model (POM)** para estruturar 
 - **Automação Web:** Selenium WebDriver  
 - **Framework de Teste:** Pytest  
 - **Relatórios:** pytest-html  
-- **Controle de Versão:** Git e GitHub  
-
-## 📂 Estrutura do Projeto
-```bash
-├── tests/                  # Casos de teste
-│   ├── test_login.py       # Testes de login
-│   └── conftest.py         # Configurações globais
-├── pages/                  # Page Objects (POM)
-│   └── login_page.py       # Classe com elementos e ações da tela de login
-├── reports/                # Relatórios de execução
-├── requirements.txt        # Dependências do projeto
-└── README.md               # Documentação
-
-
-
+- **Controle de Versão:** Git e GitHub
 
 
 ##Conclusão
